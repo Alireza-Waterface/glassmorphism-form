@@ -8,7 +8,7 @@
 
 body {
     overflow-x: hidden;
-    background: linear-gradient(45deg, #fc466b, #3f5efb);
+    background: linear-gradient(45deg, #cccc00 20%, #00cc00);
     min-height: 100vh;
     font-family: "Montserrat", sans-serif;
 }
@@ -99,7 +99,7 @@ body {
         .drop {
             width: 50px; height: 50px;
             position: absolute;
-            background: rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.5);
             border-radius: 8px;
         }
 
@@ -110,8 +110,8 @@ body {
         .drop-2 {
             left: -15px;
             top: -15px;
-            width: 70px !important;
-            height: 70px !important;
+            width: 70px;
+            height: 70px;
         }
         .drop-3 {
             right: -25px;
@@ -120,13 +120,13 @@ body {
         .drop-4 {
             left: 30%;
             bottom: 40%;
-            background: rgba(255, 255, 255, 0.2) !important;
+            background: rgba(255, 255, 255, 0.4);
         }
         .drop-5 {
             right: 20%;
             bottom: -25px;
-            width: 60px !important;
-            height: 60px !important;
+            width: 60px;
+            height: 60px;
         }
     }
 }
